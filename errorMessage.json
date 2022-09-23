@@ -1,0 +1,2764 @@
+{
+ "status": "success",
+ "version": "2022033102AM",
+ "errors": {
+  "SUCCESS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00030338"
+  },
+  "E_PARAMETERS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00040310"
+  },
+  "E_JOB_TYPE_UNKNOWN": {
+   "err_message": {
+    "en": "Scan preparation detected a mismatch between client and server packages.",
+    "cn": "扫描准备中检测到客户端和服务器之间的包不匹配"
+   },
+   "err_code": "0x80050311"
+  },
+  "E_SUBPROCESS_FAIL": {
+   "err_message": {
+    "en": "Scan preparation failed with a system error. Please see log in stdout or the log file in the installation directory.",
+    "cn": "因系统错误导致扫描准备失败，请参阅stdout的日志或安装目录中的日志文件"
+   },
+   "err_code": "0x80060112"
+  },
+  "E_COLLECT_TAR_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00070310"
+  },
+  "E_UPLOAD_PREPROCESS_TAR_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00080310"
+  },
+  "E_REPORT_RESULT_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00090310"
+  },
+  "E_API_INVOKE_FAIL": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x000A0310"
+  },
+  "E_XCALBUILD_NOT_FOUND": {
+   "err_message": {
+    "en": "A script for scan preparation is missing in the client side package.",
+    "cn": "客户端包中缺少用于扫描准备的脚本"
+   },
+   "err_code": "0x800B0013"
+  },
+  "E_CMD_RETURN_NONZERO": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x000C0310"
+  },
+  "E_JOB_TYPE_NONE": {
+   "err_message": {
+    "en": "Scan preparation detected a mismatch between client and server packages.",
+    "cn": "扫描准备中检测到客户端和服务器之间的包不匹配"
+   },
+   "err_code": "0x800D0311"
+  },
+  "E_JAVA_SCAN_FAIL": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x000F0310"
+  },
+  "E_FILE_INFO_PJ_NULL": {
+   "err_message": {
+    "en": "Scan preparation failed, likely due to the project path being invalid.",
+    "cn": "扫描准备失败，可能是由于项目路径无效"
+   },
+   "err_code": "0x80100112"
+  },
+  "E_FILE_INFO_GATHER_FAIL": {
+   "err_message": {
+    "en": "Scan preparation failed. Source file information access error.",
+    "cn": "扫描准备失败，源代码文件信息访问错误"
+   },
+   "err_code": "0x80110311"
+  },
+  "E_PLUGIN_RETURN_NONZERO": {
+   "err_message": {
+    "en": "Maven/Gradle plugin reported a failure. Please make sure your code can be compiled correctly.",
+    "cn": "Maven/Gradle插件报告了一个错误，请先确保您的代码可以正确编译"
+   },
+   "err_code": "0x80120311"
+  },
+  "E_PLUGIN_EXEC_ERR": {
+   "err_message": {
+    "en": "Maven/Gradle plugin exception failure, likely due to time-out or compilation failure.",
+    "cn": "Maven/Gradle插件异常错误，可能是由于超时或编译失败"
+   },
+   "err_code": "0x80130112"
+  },
+  "E_PRESCAN_RESULT_DIR_NONEXIST": {
+   "err_message": {
+    "en": "Scan preparation failed, cannot find result directory.",
+    "cn": "扫描准备失败，无法找到结果目录"
+   },
+   "err_code": "0x80140112"
+  },
+  "E_NO_VIABLE_MIDDLE_RESULT": {
+   "err_message": {
+    "en": "Scan preparation failed to generate any source file information.",
+    "cn": "扫描准备失败，未能产生任何源代码文件信息"
+   },
+   "err_code": "0x80150112"
+  },
+  "E_NOT_FOUND_FILE": {
+   "err_message": {
+    "en": "Scan preparation failed in collecting class or jar files to scan.",
+    "cn": "扫描准备失败，无法收集到要扫描的类或jar文件"
+   },
+   "err_code": "0x80160112"
+  },
+  "E_COMPRESS_FAIL": {
+   "err_message": {
+    "en": "Scan preparation failed in compressing phase.",
+    "cn": "扫描准备中，压缩过程中失败"
+   },
+   "err_code": "0x80170112"
+  },
+  "E_EXTRACT_UNKNOWN_FILEKIND": {
+   "err_message": {
+    "en": "Scan preparation failed. Compressed archive has an unknown extension.",
+    "cn": "扫描准备失败，使用压缩归档文件有一个未知的扩展名"
+   },
+   "err_code": "0x80180311"
+  },
+  "E_CONFIG_PARM_ERROR": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00190308"
+  },
+  "E_CONFIG_SET_VALUE_WRONGKIND": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x001A0310"
+  },
+  "E_FILEUTIL_DIRSTACK": {
+   "err_message": {
+    "en": "Scan preparation phase internal error. Source or build directory is inconsistent.",
+    "cn": "扫描准备阶段发现内部错误，源代码目录或构建目录不一致"
+   },
+   "err_code": "0x801B0311"
+  },
+  "E_FOLDER_PERMISSION_ERROR": {
+   "err_message": {
+    "en": "Scan preparation failed, likely due to permission or path misconfiguration.",
+    "cn": "扫描准备失败，可能是由于权限或路径配置错误"
+   },
+   "err_code": "0x801C0013"
+  },
+  "E_GIT_CLONE_FAILED": {
+   "err_message": {
+    "en": "Project set up failed. Git cloning reported error.",
+    "cn": "项目设置失败，Git克隆报告错误"
+   },
+   "err_code": "0x801D010A"
+  },
+  "E_FILEINFO_FOLDER_NONEXIST": {
+   "err_message": {
+    "en": "Scan preparation failed. Source code directory traversal error.",
+    "cn": "扫描准备失败，源代码路径不存在，无法输出文件信息"
+   },
+   "err_code": "0x801E0112"
+  },
+  "E_JAVA_PREPROCESS_NO_OUTPUT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00200310"
+  },
+  "E_JAVA_HOME_NOTVALID": {
+   "err_message": {
+    "en": "Scan preparation failed. $JAVA_HOME environment variable not set.",
+    "cn": "扫描准备失败，未设置$JAVA_HOME环境变量"
+   },
+   "err_code": "0x80210013"
+  },
+  "E_JOB_CONFIG_APPEND_FAIL": {
+   "err_message": {
+    "en": "Scan preparation failed. Preprocessing of file failed when uploading to server.",
+    "cn": "扫描准备失败，预处理文件上传至服务器时失败"
+   },
+   "err_code": "0x80230112"
+  },
+  "E_CHECK_CACHE_FILE_FAILED": {
+   "err_message": {
+    "en": "Scan preparation failed. Server connection failure.",
+    "cn": "扫描准备失败，服务器连接失败"
+   },
+   "err_code": "0x80240112"
+  },
+  "E_CHECK_CACHE_NONE_FILEID": {
+   "err_message": {
+    "en": "Scan preparation failed. Server connection failure.",
+    "cn": "扫描准备失败，服务器连接失败"
+   },
+   "err_code": "0x80250112"
+  },
+  "E_FILE_INFO_NO_UPLOADRESULTS": {
+   "err_message": {
+    "en": "Scan preparation failed. Server returned bad or empty content response.",
+    "cn": "扫描准备失败，服务器端响应返回“错误的或空的内容”"
+   },
+   "err_code": "0x80260112"
+  },
+  "E_FILE_INFO_NO_FILEID": {
+   "err_message": {
+    "en": "Scan preparation failed. Server returned incomplete response during source code information upload.",
+    "cn": "扫描准备失败，服务器端响应返回“上传不完整的源代码信息”"
+   },
+   "err_code": "0x80270112"
+  },
+  "E_FOLDER_NOTEXIST": {
+   "err_message": {
+    "en": "Scan preparation failed. Source code folder does not exist during file compression.",
+    "cn": "扫描准备失败，在文件压缩过程中发现源代码文件夹不存在"
+   },
+   "err_code": "0x80280112"
+  },
+  "E_VARIABLE_MUST_HAVE_VALUE": {
+   "err_message": {
+    "en": "Scan preparation failed. Filename is missing.",
+    "cn": "扫描准备失败，缺少文件名"
+   },
+   "err_code": "0x80290311"
+  },
+  "E_SCAN_SERVICE_VERSION_MISMATCH": {
+   "err_message": {
+    "en": "Scan preparation failed. Version mismatch between server and client.",
+    "cn": "扫描准备失败，服务器端和客户端之间的版本不匹配"
+   },
+   "err_code": "0x802A0013"
+  },
+  "E_FE_UTIL_DIR_NOTFOUND": {
+   "err_message": {
+    "en": "Scan preparation failed. Incomplete package. Missing directory for compiler front-end or SpotBug package.",
+    "cn": "扫描准备失败，包不完整，缺少编译前端或SpotBug组件的目录"
+   },
+   "err_code": "0x802B0013"
+  },
+  "E_FE_UTIL_DIR_UNREADABLE": {
+   "err_message": {
+    "en": "Scan preparation failed. Incomplete package. Directory for compiler front-end or SpotBug package access denied.",
+    "cn": "扫描准备失败，包不完整，编译前端或SpotBug组件的目录被拒绝访问"
+   },
+   "err_code": "0x802C0013"
+  },
+  "E_FE_UTIL_LIB_NOTFOUND": {
+   "err_message": {
+    "en": "Scan preparation failed. Incomplete package. Missing directory for compiler front-end or SpotBug package.",
+    "cn": "扫描准备失败，包不完整，缺少编译前端或SpotBug组件的目录"
+   },
+   "err_code": "0x802D0013"
+  },
+  "E_FE_UTIL_LIB_UNREADABLE": {
+   "err_message": {
+    "en": "Scan preparation failed. Incomplete package. Missing directory for compiler front-end or SpotBug package.",
+    "cn": "扫描准备失败，包不完整，缺少编译前端或SpotBug组件的目录"
+   },
+   "err_code": "0x802E0013"
+  },
+  "E_FE_UTIL_JAR_NOTFOUND": {
+   "err_message": {
+    "en": "Scan preparation failed. Incomplete package, missing Java compiler jar file.",
+    "cn": "扫描准备失败，包不完整，缺少Java编译器的jar文件"
+   },
+   "err_code": "0x802F0013"
+  },
+  "E_FE_UTIL_JAR_UNREADABLE": {
+   "err_message": {
+    "en": "Scan preparation failed. Incomplete package, permission error accessing Java compiler jar file.",
+    "cn": "扫描准备失败，包不完整，访问Java编译器的 jar文件时权限错误"
+   },
+   "err_code": "0x80300013"
+  },
+  "E_JDK_JAR_NOTFOUND": {
+   "err_message": {
+    "en": "Scan preparation failed.  $JAVA_HOME path error.",
+    "cn": "扫描准备失败，$JAVA_HOME路径错误"
+   },
+   "err_code": "0x80310013"
+  },
+  "E_JDK_JAR_UNREADABLE": {
+   "err_message": {
+    "en": "Scan preparation failed. $JAVA_HOME access error.",
+    "cn": "扫描准备失败，访问目录 $JAVA_HOME出现错误"
+   },
+   "err_code": "0x80320013"
+  },
+  "E_JFE_RETURN_NONZERO": {
+   "err_message": {
+    "en": "Deprecated.",
+    "cn": "弃用"
+   },
+   "err_code": "0x00330138"
+  },
+  "E_RT_OBJ_NON_EXIST": {
+   "err_message": {
+    "en": "Deprecated.",
+    "cn": "弃用"
+   },
+   "err_code": "0x00340138"
+  },
+  "E_RT_TAR_NOT_EXIST": {
+   "err_message": {
+    "en": "Scan preparation failed. Cannot locate the file rt.tgz required.",
+    "cn": "扫描准备失败，无法找到所需的rt.tgz文件"
+   },
+   "err_code": "0x80350112"
+  },
+  "E_CHECK_FILE_CACHED_NON_JSON": {
+   "err_message": {
+    "en": "Scan preparation failed. Server responded with non-JSON formatted object.",
+    "cn": "扫描准备失败，服务器端响应返回非JSON格式的对象"
+   },
+   "err_code": "0x80360112"
+  },
+  "E_SCAN_CONN_RES_NOT_EXIST": {
+   "err_message": {
+    "en": "File not found. Spotbug result format error.",
+    "cn": "文件未找到，Spotbug组件报告格式错误"
+   },
+   "err_code": "0x80370122"
+  },
+  "E_FE_UTIL_CONN_NOTFOUND": {
+   "err_message": {
+    "en": "Scan preparation failed. Missing component - SpotBug.",
+    "cn": "扫描准备失败，缺少SpotBug组件"
+   },
+   "err_code": "0x80380112"
+  },
+  "E_FE_UTIL_CONN_UNREADABLE": {
+   "err_message": {
+    "en": "Scan failed. SpotBug access error.",
+    "cn": "扫描失败，SpotBug组件访问错误"
+   },
+   "err_code": "0x8039001B"
+  },
+  "E_SCAN_CONN_RET_NONZERO": {
+   "err_message": {
+    "en": "Scan failed. SpotBug result conversion error.",
+    "cn": "扫描失败，SpotBug组件输出转换错误"
+   },
+   "err_code": "0x803A0319"
+  },
+  "E_CONNECTOR_NOTFOUND": {
+   "err_message": {
+    "en": "Scan failed. SpotBug access error.",
+    "cn": "扫描失败，SpotBug组件访问错误"
+   },
+   "err_code": "0x803B001B"
+  },
+  "E_CONNECTOR_UNREADABLE": {
+   "err_message": {
+    "en": "Scan failed. SpotBug access error.",
+    "cn": "扫描失败，SpotBug组件访问错误"
+   },
+   "err_code": "0x803C001B"
+  },
+  "E_POLL_TASK_FAILED": {
+   "err_message": {
+    "en": "Scan preparation failed. Server connection failed when acquiring new tasks to execute.",
+    "cn": "扫描准备失败，获取要执行的新任务时，服务端连接失败"
+   },
+   "err_code": "0x803D0311"
+  },
+  "E_INVALID_JSON_FORMAT": {
+   "err_message": {
+    "en": "Scan preparation failed. Server responded with non-JSON formatted object.",
+    "cn": "扫描准备失败，服务端响应返回了非JSON格式的对象"
+   },
+   "err_code": "0x803F0311"
+  },
+  "E_CHECK_FILE_CACHED_NET_FAIL": {
+   "err_message": {
+    "en": "Scan preparation failed. Client received unknown status on files like rt.jar or libraries.",
+    "cn": "扫描准备失败，客户端接收到rt.jar或其他库文件的未知状态"
+   },
+   "err_code": "0x80400311"
+  },
+  "E_LOGIN_FAIL": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00410310"
+  },
+  "E_LOGIN_RESPONSE_NON_JSON": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00420310"
+  },
+  "E_SAVE_FILE_CACHED_NON_JSON": {
+   "err_message": {
+    "en": "Scan preparation failed. Server connection failed when sending large files like rt.jar or other libraries.",
+    "cn": "扫描准备失败，发送文件较大(如rt.jar或其他库)时，服务器端连接失败"
+   },
+   "err_code": "0x80430311"
+  },
+  "E_SAVE_FILE_CACHED_NET_FAIL": {
+   "err_message": {
+    "en": "Scan preparation failed. Network connection failed when sending large files like rt.jar or libraries.",
+    "cn": "扫描准备失败，发送文件较大(如rt.jar或其他库)时，服务器端连接失败"
+   },
+   "err_code": "0x80440112"
+  },
+  "E_SAVE_FILE_CACHE_SERVER_FAIL": {
+   "err_message": {
+    "en": "Scan preparation failed. Server returned an error on uploaded file.",
+    "cn": "扫描准备失败，上传文件时服务器端返回了一个错误"
+   },
+   "err_code": "0x80450311"
+  },
+  "E_SAVE_FILE_ID_NOT_FOUND": {
+   "err_message": {
+    "en": "Scan preparation failed. Server response is missing file ID for the uploaded file.",
+    "cn": "扫描准备失败，上传文件时服务器端响应缺少文件ID"
+   },
+   "err_code": "0x80460311"
+  },
+  "E_JAVA_PRESCAN_PLUGIN_NOT_VIABLE": {
+   "err_message": {
+    "en": "Scan preparation. Plugin used in configuration is not Maven nor Gradle.",
+    "cn": "扫描准备，配置中使用的插件既非Maven也不是Gradle"
+   },
+   "err_code": "0x80470013"
+  },
+  "E_JAVA_PREPROCESS_RESULT_DIR_NOT_EXIST": {
+   "err_message": {
+    "en": "Scan preparation failed. Cannot find preprocess destination directory.",
+    "cn": "扫描准备失败，无法找到预编译目标文件目录"
+   },
+   "err_code": "0x80480112"
+  },
+  "E_COMMON_FOLDER_NONEXIST": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00490138"
+  },
+  "E_COMMON_FOLDER_PERMISSION": {
+   "err_message": {
+    "en": "Scan preparation failed. Directory access violation.",
+    "cn": "扫描准备失败，无访问目录权限"
+   },
+   "err_code": "0x804A0112"
+  },
+  "E_COMMON_TIMEOUT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x004B0138"
+  },
+  "E_COMMON_FILE_NOT_EXIST": {
+   "err_message": {
+    "en": "Scan preparation failed. Inconsistent intermediate result observed. Please start your scan job again.",
+    "cn": "扫描准备失败，中间结果不一致，请重新扫描"
+   },
+   "err_code": "0x804C0112"
+  },
+  "E_COMMON_INVALID_CONTENT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x004D0000"
+  },
+  "E_AGENT_CHECK_TYPE_NOT_SUPPORT": {
+   "err_message": {
+    "en": "Installation failure. It appears that the package is corrupted. Please download the package again.",
+    "cn": "安装失败，安装包被损坏，请重新下载安装包"
+   },
+   "err_code": "0x804E0301"
+  },
+  "E_SYS_DEPENDENCY_NOT_EXIST": {
+   "err_message": {
+    "en": "Installation failed because a system dependency is not found.",
+    "cn": "安装失败，没有找到系统依赖项"
+   },
+   "err_code": "0x804F0003"
+  },
+  "E_PY_DEPENDENCY_NOT_EXIST": {
+   "err_message": {
+    "en": "Installation failed. A python dependency is not found.",
+    "cn": "安装失败，没有找到python依赖项"
+   },
+   "err_code": "0x80500003"
+  },
+  "E_PLUGIN_TYPE_NOT_SUPPORT": {
+   "err_message": {
+    "en": "Installation failed. Incorrect setup configuration.",
+    "cn": "安装失败，安装设置不正确"
+   },
+   "err_code": "0x80510003"
+  },
+  "E_PLUGIN_INSTALLATION_FAILED": {
+   "err_message": {
+    "en": "Installation failed. Maven plugin failed.",
+    "cn": "安装失败，Maven插件异常"
+   },
+   "err_code": "0x80520003"
+  },
+  "E_COMPONENT_MISSING": {
+   "err_message": {
+    "en": "Installation failed, an incomplete package is used.",
+    "cn": "安装失败，安装包不完整"
+   },
+   "err_code": "0x80530003"
+  },
+  "E_JAVA_HOME_NOT_FOUND": {
+   "err_message": {
+    "en": "Installation failed. $JAVA_HOME is not set before installation.",
+    "cn": "安装失败，在安装之前没有设置$JAVA_HOME"
+   },
+   "err_code": "0x80540003"
+  },
+  "E_NO_SUFFICIENT_MEMORY": {
+   "err_message": {
+    "en": "Installation failed. Insufficient memory to use.",
+    "cn": "安装失败，内存不足"
+   },
+   "err_code": "0x80550003"
+  },
+  "E_BEAR_INSTALLATION_FAILED": {
+   "err_message": {
+    "en": "Installation failed. Cannot install \"Bear\" utility.",
+    "cn": "安装失败，无法安装“Bear”工具"
+   },
+   "err_code": "0x80560102"
+  },
+  "E_NO_AGENT_CONN_TIMEOUT": {
+   "err_message": {
+    "en": "Project setup failed. Server cannot find the corresponding client.",
+    "cn": "项目设置失败，服务端找不到相应的客户端"
+   },
+   "err_code": "0x8057000B"
+  },
+  "E_SCAN_TIME_EXCEED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00580318"
+  },
+  "E_SCAN_UPLOAD_TIMEOUT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00590318"
+  },
+  "E_QUEUEING_EXPIRED": {
+   "err_message": {
+    "en": "Scan failed. Job in the queue has expired. Please restart the scan.",
+    "cn": "扫描失败，队列中的作业已过期，请重新扫描"
+   },
+   "err_code": "0x805A011A"
+  },
+  "E_SCAN_SERVICE_STAGE_TIMEOUT": {
+   "err_message": {
+    "en": "Scan failed. The scan is taking too long, likely due to connection or filesystem access. Please cancel and start again.",
+    "cn": "扫描失败，扫描花费的时间太长，可能是网络连接或文件系统访问的原因，请取消任务并重新扫描"
+   },
+   "err_code": "0x805B011A"
+  },
+  "E_SOURCE_DIRECTORY_NOT_EXIST": {
+   "err_message": {
+    "en": "Scan preparation failed. Source directory not found. Please check configuration set up",
+    "cn": "扫描准备失败，无法找到源代码文件目录，请检查系统配置和项目设置"
+   },
+   "err_code": "0x805C0013"
+  },
+  "E_BUILD_MAIN_DIRECTORY_NOT_EXIST": {
+   "err_message": {
+    "en": "Scan preparation failed. Build directory access error. Please check configuration setup.",
+    "cn": "扫描准备失败，构建目录访问出错,请检查系统配置和项目设置"
+   },
+   "err_code": "0x805D000B"
+  },
+  "E_AGENT_NAME_INVALID": {
+   "err_message": {
+    "en": "Project setup failed. Client name set in the configuration is invalid.",
+    "cn": "项目设置失败，配置中设置的客户端名称无效"
+   },
+   "err_code": "0x805E000B"
+  },
+  "E_JOB_QUEUE_NAME_INVALID": {
+   "err_message": {
+    "en": "Project setup failed. The jobQueueName in configuration is invalid.",
+    "cn": "项目设置失败，配置中的jobQueueName字段无效"
+   },
+   "err_code": "0x805F000B"
+  },
+  "E_NO_AGENT_TOKEN": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00600318"
+  },
+  "E_JAVA_PARSE_USER_ENVOPT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00610038"
+  },
+  "E_UTIL_TAR_COMPRESS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00620138"
+  },
+  "E_UTIL_UNKNOWN_ARCHIVE_TYPE": {
+   "err_message": {
+    "en": "Scan failed. Archive file format error during the scan process.",
+    "cn": "扫描失败，扫描过程中存档文件格式错误"
+   },
+   "err_code": "0x80630319"
+  },
+  "E_UTIL_CONFOBJ_PARAM": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00640310"
+  },
+  "E_UTIL_CONFOBJ_TOKEN": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00650310"
+  },
+  "E_UTIL_CONFOBJ_USERCONTENT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00660310"
+  },
+  "E_UTIL_CONFOBJ_SCANID": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00670310"
+  },
+  "E_UTIL_CONFOBJ_SCANFILE": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00680310"
+  },
+  "E_UTIL_CONFOBJ_PREPROCPATH": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00690310"
+  },
+  "E_UTIL_CONFOBJ_SET": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x006A0310"
+  },
+  "E_UTIL_EXPIRE_NONE_HOOKTYPE": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x006B0338"
+  },
+  "E_STAGE_NOT_RECOGNIZE": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x006C0338"
+  },
+  "E_UTIL_EXPIRE_UNKNOWN_LIST_NAME": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x006D0338"
+  },
+  "E_UTIL_EXPIRE_IGNORE_DURATION": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x006E0338"
+  },
+  "E_UTIL_ZIP_COMPRESS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x006F0338"
+  },
+  "E_SCAN_JOB_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00700318"
+  },
+  "E_NO_PIPELINE": {
+   "err_message": {
+    "en": "Scan failed. Project scan scheduling meta-data corruption. Please start the project again.",
+    "cn": "扫描失败，项目扫描调度元数据已损坏，请重新设置，然后再开始扫描这个项目"
+   },
+   "err_code": "0x8071011A"
+  },
+  "E_PIPELINE_OFFSET": {
+   "err_message": {
+    "en": "Scan failed. Project scan scheduling meta-data corruption. Please start the project again.",
+    "cn": "扫描失败，项目扫描调度元数据已损坏，请重新设置，然后再开始扫描这个项目"
+   },
+   "err_code": "0x8072011A"
+  },
+  "E_SRV_JOBLISTEN_KAFKA_RECEIVE": {
+   "err_message": {
+    "en": "Scan failed. Server project scan scheduler error. Please restart the server.",
+    "cn": "扫描失败，服务端项目扫描调度程序错误，请重启服务"
+   },
+   "err_code": "0x8073011A"
+  },
+  "E_JOB_EXPIRE": {
+   "err_message": {
+    "en": "Scan failed. Project scan has timed out. Please start the project again.",
+    "cn": "扫描失败，项目扫描已超时，请重新启动扫描"
+   },
+   "err_code": "0x8074011A"
+  },
+  "E_SRV_KAFKA_FAILED": {
+   "err_message": {
+    "en": "Scan failed. Project scan scheduling meta-data corruption. Please start the project again.",
+    "cn": "扫描失败，项目扫描调度元数据已损坏，请重新启动扫描"
+   },
+   "err_code": "0x8075011A"
+  },
+  "E_API_AGENT_PARAM_TARGET": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00760338"
+  },
+  "E_SRV_AGENT_INVOKE_KEY_IN_CONFIG": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00770338"
+  },
+  "E_SRV_AGENT_INVOKE_GITLAB": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00780310"
+  },
+  "E_SRV_AGENT_SRC_ADDRESS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00790310"
+  },
+  "E_SRV_AGENT_NO_PREPROCESS_LOC": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x007A0310"
+  },
+  "E_SRV_AGENT_SSH_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x007B0338"
+  },
+  "E_SRV_AGENT_SSH_PARAM": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x007C0338"
+  },
+  "E_SRV_FILE_SCP_SEND": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x007D0338"
+  },
+  "E_SRV_FILE_SCP_GET_FAIL": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x007E0338"
+  },
+  "E_SRV_GETPREPROC_NO_PRESCAN_RESULT": {
+   "err_message": {
+    "en": "Scan failed. Uploaded rt.tgz file not found. Please restart the scan.",
+    "cn": "扫描失败，可能未找到应上传的rt.tgz文件，请重新启动扫描"
+   },
+   "err_code": "0x807F011A"
+  },
+  "E_SRV_AGENT_UNKNOWN": {
+   "err_message": {
+    "en": "Scan preparation failed. The client has received an unspecified exception.",
+    "cn": "扫描准备失败，客户端接收到一个未知异常"
+   },
+   "err_code": "0x80800319"
+  },
+  "E_SRV_AGENT_CHECK_CACHE": {
+   "err_message": {
+    "en": "Scan preparation failed. An Illegal API request has been used.",
+    "cn": "扫描准备失败，使用了非法API请求"
+   },
+   "err_code": "0x80810311"
+  },
+  "E_SRV_XVSA_UNKNOWN_EXECTUTE_TYPE": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00820338"
+  },
+  "E_SRV_FLATTEN_OVERSIZE": {
+   "err_message": {
+    "en": "Scan failed. Scan engine result file generated is too large to be processed.",
+    "cn": "扫描失败，扫描引擎生成的结果文件太大，无法处理"
+   },
+   "err_code": "0x8083011A"
+  },
+  "E_SRV_FLATTEN_FID_INVALID": {
+   "err_message": {
+    "en": "Scan failed. Invalid file ID is found. Likely due to data corruption occurring in the result file.",
+    "cn": "扫描失败，发现无效的文件ID，可能是由于结果文件中发生了数据损坏"
+   },
+   "err_code": "0x80840319"
+  },
+  "E_SRV_FLATTEN_PATH_FID_INVALID": {
+   "err_message": {
+    "en": "Scan failed. Invalid file ID is found. Likely due to data corruption occurring in the result file.",
+    "cn": "扫描失败，发现无效的文件ID，可能是由于结果文件中发生了数据损坏"
+   },
+   "err_code": "0x80850319"
+  },
+  "E_UTIL_CACHE_NONE_PARAM": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00860338"
+  },
+  "E_UTIL_CACHE_JSON_INVALID": {
+   "err_message": {
+    "en": "Scan failed. The libraries or rt.jar files have been corrupted in the database. Please contact Xcalibyte support.",
+    "cn": "扫描失败，数据库中的库或rt.jar文件已损坏，请联系 Xcalibyte。"
+   },
+   "err_code": "0x80870319"
+  },
+  "E_SETTING_SET_PARM_ERROR": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00880338"
+  },
+  "E_DOCKER_CONATINER_EXITNZERO": {
+   "err_message": {
+    "en": "Scan failed. Please contact Xcalibyte support.",
+    "cn": "扫描失败, 请联系 Xcalibyte。"
+   },
+   "err_code": "0x80890319"
+  },
+  "E_DOCKER_NOIMAGEFOUND": {
+   "err_message": {
+    "en": "Scan failed. Cannot find the docker image needed to run the scan engine.",
+    "cn": "扫描失败，无法找到运行扫描引擎所需的docker镜像"
+   },
+   "err_code": "0x808A011A"
+  },
+  "E_DOCKER_API_ERROR": {
+   "err_message": {
+    "en": "Scan failed. Docker for scan engine reported an API invocation error. Likely due to permission error or file system error.",
+    "cn": "扫描失败，扫描引擎的Docker报告了一个API调用错误，可能是由于权限错误或文件系统错误"
+   },
+   "err_code": "0x808B011A"
+  },
+  "E_SRV_XVSA_EXECUTE_FAIL": {
+   "err_message": {
+    "en": "Scan failed, likely not enough memory or license expiry.  Please contact your system administrator.",
+    "cn": "扫描失败，可能是内存资源不足或者证书过期。请联系系统管理员。"
+   },
+   "err_code": "0x808C011A"
+  },
+  "E_SRV_XVSA_DOCKER_FAIL": {
+   "err_message": {
+    "en": "Scan failure. The docker container cannot be invoked. Please contact your system administrator.",
+    "cn": "扫描失败，无法调用docker容器."
+   },
+   "err_code": "0x808D011A"
+  },
+  "E_SRV_UPLOAD_NO_V_FILE": {
+   "err_message": {
+    "en": "Scan failure. Results file of scan engine cannot be found for upload.",
+    "cn": "扫描失败，无法找到扫描引擎上传的结果文件"
+   },
+   "err_code": "0x808E011A"
+  },
+  "E_SRV_UPLOAD_V_NOT_READABLE": {
+   "err_message": {
+    "en": "Scan failure. Results file of scan engine cannot be found for upload.",
+    "cn": "扫描失败，无法找到扫描引擎上传的结果文件"
+   },
+   "err_code": "0x808F011A"
+  },
+  "E_SRV_UPLOAD_FILEINFO_NEXIST": {
+   "err_message": {
+    "en": "Scan failure. Source code information file cannot not be found to be uploaded to the database. Please scan the project again.",
+    "cn": "扫描失败，无法在数据库中找到要上传的源代码文件信息，请重新扫描"
+   },
+   "err_code": "0x8090011A"
+  },
+  "E_SRV_UPLOAD_FILEINFO_NOT_READABLE": {
+   "err_message": {
+    "en": "Scan failure. Source code information file cannot be uploaded due to access error. Please scan the project again.",
+    "cn": "扫描失败，由于访问错误，无法上传源代码文件信息，请重新扫描"
+   },
+   "err_code": "0x8091011A"
+  },
+  "E_SRV_UPLOAD_V_FILE_OVERSIZE": {
+   "err_message": {
+    "en": "The scan results (defects) file is too large to be uploaded to the database.",
+    "cn": "扫描结果(缺陷)文件太大，无法上传至数据库"
+   },
+   "err_code": "0x80920023"
+  },
+  "E_SRV_UPLOAD_FILEINFO_OVERSIZE": {
+   "err_message": {
+    "en": "The source code information file is too large to be uploaded to the database.",
+    "cn": "源代码信息文件太大，无法上传到数据库"
+   },
+   "err_code": "0x80930122"
+  },
+  "E_CONNECT_API_LIST_SETTING": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00940138"
+  },
+  "E_CONNECT_API_UPLOAD_PROGRESS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x00950338"
+  },
+  "E_GET_CURRENT_USER_INFO_FAILED": {
+   "err_message": {
+    "en": "Deprecated.",
+    "cn": "弃用"
+   },
+   "err_code": "0x00960113"
+  },
+  "E_CREATE_PROJECT_FAILED": {
+   "err_message": {
+    "en": "Scan preparation failed. Cannot create project.",
+    "cn": "扫描准备失败，无法创建项目"
+   },
+   "err_code": "0x80970111"
+  },
+  "E_GET_PROJECT_CONFIG_FAILED": {
+   "err_message": {
+    "en": "Scan preparation. Cannot get project configuration.",
+    "cn": "扫描准备失败，无法获得项目配置信息"
+   },
+   "err_code": "0x80980111"
+  },
+  "E_ADD_SCAN_TASK_FAILED": {
+   "err_message": {
+    "en": "Scan preparation. Cannot add scan project.",
+    "cn": "扫描准备失败，无法添加扫描项目"
+   },
+   "err_code": "0x00990111"
+  },
+  "E_CALL_SCAN_SERVICE_FAILED": {
+   "err_message": {
+    "en": "Scan preparation. Cannot start scan, please check your configuration file.",
+    "cn": "扫描准备失败，无法启动扫描，请检查您的配置文件"
+   },
+   "err_code": "0x809A0111"
+  },
+  "E_KEY_NOT_FOUND": {
+   "err_message": {
+    "en": "Configuration error. Cannot find key in the dict object.",
+    "cn": "配置信息错误，无法在dict对象中找到密钥"
+   },
+   "err_code": "0x809B0311"
+  },
+  "E_NO_SCAN_RESULT": {
+   "err_message": {
+    "en": "Scan failed. Results of the scan cannot be found.",
+    "cn": "扫描失败，无法找到扫描结果"
+   },
+   "err_code": "0x809C0021"
+  },
+  "": {
+   "err_message": {
+    "en": "Scan success.",
+    "cn": "扫描成功"
+   },
+   "err_code": "0x80B30328"
+  },
+  "E_API_VALIDATION_CONSTRAINTS_NOTBLANK": {
+   "err_message": {
+    "en": "Must not be blank.",
+    "cn": "不能是空白的"
+   },
+   "err_code": "0x00B40338"
+  },
+  "E_API_VALIDATION_CONSTRAINTS_NOTNULL": {
+   "err_message": {
+    "en": "Must not be null.",
+    "cn": "不能为空"
+   },
+   "err_code": "0x00B50338"
+  },
+  "E_API_VALIDATION_CONSTRAINTS_PATTERN": {
+   "err_message": {
+    "en": "Must match \"${regexp}\".",
+    "cn": "必须匹配 \"${regexp}"
+   },
+   "err_code": "0x00B60338"
+  },
+  "E_API_VALIDATION_CONSTRAINTS_EMAIL": {
+   "err_message": {
+    "en": "Must be a correct email address.",
+    "cn": "必须是正确的电子邮件地址"
+   },
+   "err_code": "0x00B70338"
+  },
+  "E_API_VALIDATION_CONSTRAINTS_SIZE": {
+   "err_message": {
+    "en": "Size must be between ${min} and ${max}.",
+    "cn": "大小必须介于${min}和${max}之间"
+   },
+   "err_code": "0x00B80338"
+  },
+  "E_API_VALIDATION_CONSTRAINTS_PORT": {
+   "err_message": {
+    "en": "Must be between 1 and 65535.",
+    "cn": "必须介于1和65535之间"
+   },
+   "err_code": "0x00B90338"
+  },
+  "E_API_VALIDATION_CONSTRAINTS_MIN": {
+   "err_message": {
+    "en": "Must be greater than or equal to ${value}.",
+    "cn": "必须大于或等于${value}"
+   },
+   "err_code": "0x00BA0338"
+  },
+  "E_API_COMMON_COMMON_INTERNAL_ERROR": {
+   "err_message": {
+    "en": "Website internal server error. Please retry by refreshing/reloading the page.",
+    "cn": "网站内部服务器错误，请刷新/重新加载页面"
+   },
+   "err_code": "0x80BB013A"
+  },
+  "E_API_COMMON_COMMON_NOT_IMPLEMENT": {
+   "err_message": {
+    "en": "This ruleset has not been implemented.",
+    "cn": "此规则集尚未实现"
+   },
+   "err_code": "0x00BC0338"
+  },
+  "E_API_COMMON_COMMON_INVALID_CONFIG": {
+   "err_message": {
+    "en": "Project set up failed. Please check your project or scan task configuration.",
+    "cn": "项目设置失败，请检查您的项目或扫描任务配置"
+   },
+   "err_code": "0x80BD000B"
+  },
+  "E_API_COMMON_COMMON_INVALID_STATUS": {
+   "err_message": {
+    "en": "Invalid status.",
+    "cn": "无效状态"
+   },
+   "err_code": "0x00BE0338"
+  },
+  "E_API_COMMON_DTO_CONVERT_PARAMETER_NOT_EXIST": {
+   "err_message": {
+    "en": "Does not exist.",
+    "cn": "不存在"
+   },
+   "err_code": "0x00BF0338"
+  },
+  "E_API_COMMON_DTO_INVALID_CONTENT": {
+   "err_message": {
+    "en": "The configuration details are invalid for the JSON format. Please check the details again.",
+    "cn": "JSON格式的配置信息无效，请再次核查"
+   },
+   "err_code": "0x00C00138"
+  },
+  "E_API_COMMON_MISSING_FILE": {
+   "err_message": {
+    "en": "Missing file.",
+    "cn": "文件不存在"
+   },
+   "err_code": "0x00C10338"
+  },
+  "E_API_EMAIL_COMMON_SENDMAIL": {
+   "err_message": {
+    "en": "Failed to send email. Please contact your administrator.",
+    "cn": "发送电子邮件失败，请联系管理员"
+   },
+   "err_code": "0x80C2013A"
+  },
+  "E_API_EMAIL_COMMON_UNASSIGNED_ISSUE": {
+   "err_message": {
+    "en": "Email cannot be sent without assigning an issue.",
+    "cn": "无法发送电子邮件，没有指定的问题"
+   },
+   "err_code": "0x80C3003B"
+  },
+  "E_API_EMAIL_PREPARE_FAILED": {
+   "err_message": {
+    "en": "Email cannot be sent. An exception occurred during send.",
+    "cn": "无法发送电子邮件，发送过程中发生异常"
+   },
+   "err_code": "0x00C40338"
+  },
+  "E_API_FILE_ADD_ALREADY_EXIST": {
+   "err_message": {
+    "en": "This file already exists.",
+    "cn": "此文件已经存在"
+   },
+   "err_code": "0x00C50338"
+  },
+  "E_API_FILE_CHECKINTEGRITY_FAILED": {
+   "err_message": {
+    "en": "Check data integrity failed.",
+    "cn": "检查数据完整性失效"
+   },
+   "err_code": "0x00C60338"
+  },
+  "E_API_FILE_CHECKSUM_NOT_PARSABLE": {
+   "err_message": {
+    "en": "Expected checksum is not a valid crc 32 message digest.",
+    "cn": "校验和错误"
+   },
+   "err_code": "0x00C70338"
+  },
+  "E_API_FILE_COMMON_FILEINFORMATION_ALREADY_EXIST": {
+   "err_message": {
+    "en": "File information already exists.",
+    "cn": "文件信息已经存在"
+   },
+   "err_code": "0x00C80338"
+  },
+  "E_API_FILE_COMMON_FILEINFORMATION_NOT_FOUND": {
+   "err_message": {
+    "en": "File information not found.",
+    "cn": "未找到文件信息"
+   },
+   "err_code": "0x00C90338"
+  },
+  "E_API_FILE_COMMON_INVALID_FORMAT": {
+   "err_message": {
+    "en": "Invalid format.",
+    "cn": "无效格式"
+   },
+   "err_code": "0x00CA0038"
+  },
+  "E_API_FILE_COMMON_INVALID_TYPE": {
+   "err_message": {
+    "en": "Invalid file type.",
+    "cn": "无效文件类型"
+   },
+   "err_code": "0x00CB0038"
+  },
+  "E_API_FILE_COMMON_INVALID_VALUE": {
+   "err_message": {
+    "en": "Invalid value",
+    "cn": "无效值"
+   },
+   "err_code": "0x00CC0038"
+  },
+  "E_API_FILE_COMMON_INVALID_STORAGE_TYPE": {
+   "err_message": {
+    "en": "Invalid storage type.",
+    "cn": "无效存储类型"
+   },
+   "err_code": "0x00CD0038"
+  },
+  "E_API_FILE_COMMON_NOT_AVAILABLE": {
+   "err_message": {
+    "en": "File not available.",
+    "cn": "文件不存在"
+   },
+   "err_code": "0x00CE0038"
+  },
+  "E_API_FILE_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "File not found.",
+    "cn": "文件未找到"
+   },
+   "err_code": "0x00CF0038"
+  },
+  "E_API_FILE_COMMON_OBTAIN_FAILED": {
+   "err_message": {
+    "en": "Unable to obtain file due to file system error.",
+    "cn": "由于文件系统错误，无法获取文件"
+   },
+   "err_code": "0x00D00000"
+  },
+  "E_API_FILE_COMMON_CREATE_TEMP_FILE_FAILED": {
+   "err_message": {
+    "en": "Failed to create temporary file.",
+    "cn": "创建临时文件失败"
+   },
+   "err_code": "0x00D10000"
+  },
+  "E_API_FILE_COMPRESSFILE_COPYCODE_FAILED": {
+   "err_message": {
+    "en": "Copy source code failed.",
+    "cn": "复制源代码文件失败"
+   },
+   "err_code": "0x00D20000"
+  },
+  "E_API_FILE_COMPRESSFILE_DECOMPRESS_FAILED": {
+   "err_message": {
+    "en": "Scan failed. Failed to access source file. Likely due to the total file size being too large. Please contact your system administrator.",
+    "cn": "扫描失败，访问源代码文件失败，可能是由于总文件大小太大，请联系系统管理员"
+   },
+   "err_code": "0x80D3011A"
+  },
+  "E_API_FILE_COMPRESSFILE_DELETE_EXISTING_FAILED": {
+   "err_message": {
+    "en": "Deletion of existing folder failed during decompression. Contact your administrator.",
+    "cn": "解压过程中无法删除已存在的文件夹，请联系系统管理员"
+   },
+   "err_code": "0x00D40000"
+  },
+  "E_API_FILE_COMPRESSFILE_FAILED": {
+   "err_message": {
+    "en": "Directory compression failure.",
+    "cn": "目录压缩失败"
+   },
+   "err_code": "0x00D50000"
+  },
+  "E_API_FILE_COMPRESSFILE_FILE_NOT_GENERATED": {
+   "err_message": {
+    "en": "The archive file was not generated.",
+    "cn": "未能生成归档文件"
+   },
+   "err_code": "0x00D60000"
+  },
+  "E_API_FILE_COMPRESSFILE_FILE_OR_DIRECTORY_NOT_FOUND": {
+   "err_message": {
+    "en": "File or directory not found.",
+    "cn": "未找到文件或者目录"
+   },
+   "err_code": "0x00D70138"
+  },
+  "E_API_FILE_GETFILESTORAGE_FAILED": {
+   "err_message": {
+    "en": "Data conversion error in fileStorageExtraInfo.",
+    "cn": "fileStorageExtraInfo中的数据转换错误"
+   },
+   "err_code": "0x00D80000"
+  },
+  "E_API_FILE_UPLOAD_FILE_FAILED": {
+   "err_message": {
+    "en": "Scan preparation failed. Failed to upload source file. Likely due to the total file size being too large. Please contact your system administrator.",
+    "cn": "扫描失败，访问源代码文件失败，可能是由于总文件大小太大，请联系系统管理员"
+   },
+   "err_code": "0x80D90112"
+  },
+  "E_API_FILE_IMPORT_FILE_FAILED": {
+   "err_message": {
+    "en": "Scan preparation failed. Failed to import source file. Please contact your system administrator.",
+    "cn": "扫描准备失败，导入源代码文件失败。请与系统管理员联系"
+   },
+   "err_code": "0x80DA0112"
+  },
+  "E_API_FILE_IMPORTFILEINFO_ROOT_NOT_FOUND": {
+   "err_message": {
+    "en": "Root scan file not found.",
+    "cn": "未找到扫描文件根目录"
+   },
+   "err_code": "0x00DB0138"
+  },
+  "E_API_FILE_IMPORTFILEINFO_PARENT_NOT_FOUND": {
+   "err_message": {
+    "en": "Parent scan file not found.",
+    "cn": "未找到扫描文件父目录"
+   },
+   "err_code": "0x00DC0138"
+  },
+  "E_API_FILESTORAGE_ADD_ALREADY_EXIST": {
+   "err_message": {
+    "en": "The file storage name is already in use.",
+    "cn": "存储文件名称已存在"
+   },
+   "err_code": "0x00DD0038"
+  },
+  "E_API_FILESTORAGE_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "File storage not found.",
+    "cn": "未找到存储文件"
+   },
+   "err_code": "0x00DE0038"
+  },
+  "E_API_GIT_COMMON_CLONE_FAILED": {
+   "err_message": {
+    "en": "Project set up failed. Failure to clone source code. Please check your project/ scan task configuration.",
+    "cn": "项目设置失败，复制源代码文件失败，请检查您的项目/扫描任务配置"
+   },
+   "err_code": "0x80DF010A"
+  },
+  "E_API_GIT_COMMON_COMMIT_NOT_FOUND": {
+   "err_message": {
+    "en": "Scan failed. No commit entry found. Please check your source code repository server.",
+    "cn": "扫描失败，没有找到提交条目，请检查您的源代码存储库服务器"
+   },
+   "err_code": "0x80E0000B"
+  },
+  "E_API_GIT_COMMON_GITLABERROR": {
+   "err_message": {
+    "en": "Project set up failed. Unable to access your source code repository. Please check your configuration details or source code repository server.",
+    "cn": "项目设置失败，无法访问源代码存储库,请检查您的详细配置或源代码存储库服务器"
+   },
+   "err_code": "0x80E1000B"
+  },
+  "E_API_GIT_COMMON_LAST_COMMITID_NOT_FOUND": {
+   "err_message": {
+    "en": "Project set up failed. Latest commit ID not found in the source code repository. Please check your source code repository server.",
+    "cn": "项目设置失败，在源代码存储库中没有找到最新提交的ID，请检查您的源代码存储库服务器"
+   },
+   "err_code": "0x80E2000B"
+  },
+  "E_API_GIT_COMMON_PROJECTID_NOT_BLANK": {
+   "err_message": {
+    "en": "Project set up failed. Source code repository project ID cannot be empty.",
+    "cn": "项目设置失败，源代码存储库项目ID不能为空"
+   },
+   "err_code": "0x80E3000B"
+  },
+  "E_API_GIT_COMMON_PROJECTIDORPATH_NOT_BLANK": {
+   "err_message": {
+    "en": "Project set up failed. Project ID or path cannot be empty.",
+    "cn": "项目设置失败，项目ID或路径不能为空"
+   },
+   "err_code": "0x80E4000B"
+  },
+  "E_API_GIT_GETRAWFILE_FAILED": {
+   "err_message": {
+    "en": "Project report failed. Cannot get source code files.",
+    "cn": "项目报告失败，无法获得源代码文件"
+   },
+   "err_code": "0x80E5000B"
+  },
+  "E_API_GIT_GETREPO_FAILED": {
+   "err_message": {
+    "en": "Project set up failed. Cannot connect to source code repository. Please contact your system administrator.",
+    "cn": "项目设置失败，无法连接到源代码存储库，请与系统管理员联系"
+   },
+   "err_code": "0x80E6010A"
+  },
+  "E_API_GIT_GITHUBPROJECTURL_NOT_BLANK": {
+   "err_message": {
+    "en": "Project set up failed. Source code repository project URL cannot be empty.",
+    "cn": "项目设置失败，源代码存储库中项目URL不能为空"
+   },
+   "err_code": "0x80E7000B"
+  },
+  "E_API_ISSUE_COMMON_INVALID_SEVERITY": {
+   "err_message": {
+    "en": "Invalid severity.",
+    "cn": "无效的严重程度"
+   },
+   "err_code": "0x00E80000"
+  },
+  "E_API_ISSUE_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Defect not found.",
+    "cn": "找不到缺陷"
+   },
+   "err_code": "0x00E90038"
+  },
+  "E_API_ISSUE_UPDATEISSUE_INVALID_ACTION": {
+   "err_message": {
+    "en": "Invalid action. The action value should be Pending, Critical, Confirmed, False Positive or Waived.",
+    "cn": "无效的行动，行动值应该是待定的、临界的、确定的、假阳性的或放弃的"
+   },
+   "err_code": "0x00EA0000"
+  },
+  "E_API_ISSUE_IMPORTISSUE_INVALID_FILE": {
+   "err_message": {
+    "en": "Invalid file.",
+    "cn": "无效文件"
+   },
+   "err_code": "0x00EB0338"
+  },
+  "E_API_LICENSE_COMMON_EXPIRED": {
+   "err_message": {
+    "en": "The license has expired. Please renew your license.",
+    "cn": "授权许可过期了，请更新您的软件授权"
+   },
+   "err_code": "0x80EC003B"
+  },
+  "E_API_LICENSE_COMMON_INVALID_LICENSE": {
+   "err_message": {
+    "en": "Your license is invalid. Please contact Xcalibyte support.",
+    "cn": "无效的授权许可，请联系Xcalibyte售后服务人员"
+   },
+   "err_code": "0x80ED013A"
+  },
+  "E_API_LICENSE_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Active license not found. Contact your system administrator.",
+    "cn": "未获取有效的授权许可，请联系系统管理员"
+   },
+   "err_code": "0x80EE013A"
+  },
+  "E_API_LICENSE_UPDATE_PUBLIC_KEY_NOT_FOUND": {
+   "err_message": {
+    "en": "Your license is invalid. Public key not found. Please contact your administrator.",
+    "cn": "无效的授权许可，未找到公钥，请联系系统管理员"
+   },
+   "err_code": "0x80EF013A"
+  },
+  "E_API_LICENSE_UPDATE_ENCRYPT_AES_KEY_NOT_FOUND": {
+   "err_message": {
+    "en": "Your license is invalid. Encryption key not found. Please contact your administrator.",
+    "cn": "无效的授权许可，未找到加密密钥，请联系系统管理员"
+   },
+   "err_code": "0x80F0013A"
+  },
+  "E_API_PROJECT_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Project not found. It may have been deleted. Please check with your administrator.",
+    "cn": "项目没有找到，可能已经被删除，请联系系统管理员"
+   },
+   "err_code": "0x00F10038"
+  },
+  "E_API_PROJECT_CREATE_ALREADY_EXIST": {
+   "err_message": {
+    "en": "Project set up failed. Project ID already exists. Please enter a unique ID.",
+    "cn": "项目设置失败，此项目ID已经存在，请输入唯一的项目ID"
+   },
+   "err_code": "0x80F2000B"
+  },
+  "E_API_PROJECT_UPDATE_INCONSISTENT": {
+   "err_message": {
+    "en": "Inconsistent project ID.",
+    "cn": "不一致的项目ID"
+   },
+   "err_code": "0x00F30020"
+  },
+  "E_API_PROJECTCONFIG_CAN_NOT_UPDATE_IN_SCANNING": {
+   "err_message": {
+    "en": "Project set up failed. Project configuration cannot be updated while the scan is in progress.",
+    "cn": "项目设置失败，在扫描过程中无法更新项目配置"
+   },
+   "err_code": "0x80F4000B"
+  },
+  "E_API_PROJECTCONFIG_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Project set up failed. Project configuration not found. Please add a new configuration.",
+    "cn": "项目设置失败，未找到项目配置，请添加一个新的配置"
+   },
+   "err_code": "0x80F5000B"
+  },
+  "E_API_PROJECTCONFIG_CREATE_ALREADY_EXIST": {
+   "err_message": {
+    "en": "Project set up failed. Project name already exists. Please create a unique project name.",
+    "cn": "项目设置失败，此项目名称已存在，请重新设置创建项目的名称"
+   },
+   "err_code": "0x80F6000B"
+  },
+  "E_API_PROJECTCONFIG_NOT_EXIST": {
+   "err_message": {
+    "en": "Project config does not exist.",
+    "cn": "项目配置不存在"
+   },
+   "err_code": "0x00F70038"
+  },
+  "E_API_PERFORMANCE_QUERY_DATA_FAILED": {
+   "err_message": {
+    "en": "Query performance data failed.",
+    "cn": "查询性能数据失败"
+   },
+   "err_code": "0x00F80038"
+  },
+  "E_API_PERFORMANCE_COPY_LOG_FILE_FAILED": {
+   "err_message": {
+    "en": "Copy log file failed.",
+    "cn": "复制日志文件失败"
+   },
+   "err_code": "0x00F90338"
+  },
+  "E_API_REPORT_COMMON_COMPILE_REPORT_ERROR": {
+   "err_message": {
+    "en": "Report generation failed. Please contact your system administrator.",
+    "cn": "报告生成失败，请联系系统管理员"
+   },
+   "err_code": "0x80FA0122"
+  },
+  "E_API_REPORT_COMMON_GENERATE_REPORT_ERROR": {
+   "err_message": {
+    "en": "Report generation failed. Please contact your system administrator.",
+    "cn": "报告生成失败，请联系系统管理员"
+   },
+   "err_code": "0x80FB0122"
+  },
+  "E_API_RULE_COMMON_ALREADY_EXIST": {
+   "err_message": {
+    "en": "Rule set already exists.",
+    "cn": "规则集已经存在"
+   },
+   "err_code": "0x00FC0000"
+  },
+  "E_API_RULE_COMMON_CATEGORY_NULL": {
+   "err_message": {
+    "en": "",
+    "cn": "规则信息错误，规则类别不能为空"
+   },
+   "err_code": "0x00FD0000"
+  },
+  "E_API_RULE_COMMON_CODE_NULL": {
+   "err_message": {
+    "en": "Rule information error. The rule code cannot be null.",
+    "cn": "规则信息错误，规则代码不能为空"
+   },
+   "err_code": "0x00FE0000"
+  },
+  "E_API_RULE_COMMON_NAME_NULL": {
+   "err_message": {
+    "en": "Rule information error. The rule name cannot be null.",
+    "cn": "规则信息错误，规则名不能为空"
+   },
+   "err_code": "0x00FF0000"
+  },
+  "E_API_RULE_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Rule not found.",
+    "cn": "找不到规则"
+   },
+   "err_code": "0x01000320"
+  },
+  "E_API_RULE_COMMON_RULESET_NOT_FOUND": {
+   "err_message": {
+    "en": "Rule set not found. Clear your web browser cache. If the problem persists, contact your administrator.",
+    "cn": "找不到规则集，请尝试清除您的web浏览器缓存，如果问题仍然存在，请联系系统管理员"
+   },
+   "err_code": "0x01010320"
+  },
+  "E_API_RULE_INVALID_SCAN_ENGINE": {
+   "err_message": {
+    "en": "Incorrect scan engine name.",
+    "cn": "扫描引擎名不正确"
+   },
+   "err_code": "0x01020320"
+  },
+  "E_API_SCANTASK_ADDSCAN_INVALID_OPERATION": {
+   "err_message": {
+    "en": "Project set up failed. Add scan task failure. Please try again.",
+    "cn": "项目设置失败，添加扫描任务失败，请重试"
+   },
+   "err_code": "0x8103000B"
+  },
+  "E_API_SCANTASK_CALLSCAN_CREATEBODY_FAILED": {
+   "err_message": {
+    "en": "Create http request body failed.",
+    "cn": "创建http请求主体失败"
+   },
+   "err_code": "0x01040308"
+  },
+  "E_API_SCANTASK_CALLSCAN_EXECUTE_FAILED": {
+   "err_message": {
+    "en": "Scan failed. Requested scan failure. Please try again.",
+    "cn": "请求扫描失败，请重试"
+   },
+   "err_code": "0x81050309"
+  },
+  "E_API_SCANTASK_CAN_NOT_COMPARE_DIFF_PROJECT": {
+   "err_message": {
+    "en": "Cannot compare the scan results with a different project.",
+    "cn": "无法比较不同项目上的扫描结果"
+   },
+   "err_code": "0x01060008"
+  },
+  "E_API_SCANTASK_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Scan task not found.",
+    "cn": "您的请求任务无效"
+   },
+   "err_code": "0x01070318"
+  },
+  "E_API_SCANTASK_SUMMARY_DATA_INCONSISTENT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01080318"
+  },
+  "E_API_SCANTASK_CONSTRUCTSCANPARAM_INVALID_PREPROCESSPATH": {
+   "err_message": {
+    "en": "Project set up failed. Source code build path is invalid. Please check your configuration.",
+    "cn": "项目设置失败，源代码构建路径无效，请检查您的配置"
+   },
+   "err_code": "0x8109000B"
+  },
+  "E_API_SCANTASK_CONSTRUCTSCANPARAM_INVALID_SCANFILEPATH": {
+   "err_message": {
+    "en": "Project set up failed. Source code path is invalid, please check your configuration.",
+    "cn": "项目设置失败，源代码路径无效，请检查您的配置"
+   },
+   "err_code": "0x810A000B"
+  },
+  "E_API_SCANTASK_CONSTRUCTSCANPARAM_INVALID_SOURCESTORAGENAME": {
+   "err_message": {
+    "en": "Project set up failed. Source code repository name is invalid. Please check your configuration.",
+    "cn": "项目设置失败，源代码存储库名称无效，请检查您的配置"
+   },
+   "err_code": "0x810B000B"
+  },
+  "E_API_SCANTASK_CONSTRUCTSCANPARAM_INVALID_TOKEN": {
+   "err_message": {
+    "en": "Project set up failed. Invalid source control authentication provided.",
+    "cn": "项目设置失败，源代码身份验证无效"
+   },
+   "err_code": "0x810C000B"
+  },
+  "E_API_SCANTASK_PREPAREFORSCAN_ONLY_SUPPORT_UPLOAD": {
+   "err_message": {
+    "en": "Only support volume_upload.",
+    "cn": "只支持上传文件"
+   },
+   "err_code": "0x010D0008"
+  },
+  "E_API_SCANTASK_PREPAREFORSCAN_INVALID_FILESTORAGE_TYPE": {
+   "err_message": {
+    "en": "Invalid fileStorage type.",
+    "cn": "无效的文件存储类型"
+   },
+   "err_code": "0x010E0008"
+  },
+  "E_API_SCANTASK_UPDATE_SCANCONFIG_FAILED": {
+   "err_message": {
+    "en": "Project set up failed. Scan configuration file update failure. Please try again.",
+    "cn": "项目设置失败，扫描配置文件更新失败，请重试"
+   },
+   "err_code": "0x810F0309"
+  },
+  "E_API_SCANTASK_UPDATE_INCONSISTENT": {
+   "err_message": {
+    "en": "Inconsistent scan task ID.",
+    "cn": "无效的扫描任务ID"
+   },
+   "err_code": "0x01100318"
+  },
+  "E_API_SCANTASKSTATUS_COMMON_INVALID_STATUS": {
+   "err_message": {
+    "en": "Invalid status.",
+    "cn": "数据已损坏，请与您的系统管理员联系"
+   },
+   "err_code": "0x01110318"
+  },
+  "E_API_SCANTASKSTATUS_COMMON_INVALID_STAGE": {
+   "err_message": {
+    "en": "Invalid stage.",
+    "cn": "数据已损坏，请与您的系统管理员联系"
+   },
+   "err_code": "0x01120318"
+  },
+  "E_API_SCANTASKSTATUS_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Scan task status log not found.",
+    "cn": "您请求的任务无效"
+   },
+   "err_code": "0x01130318"
+  },
+  "E_API_SETTING_ADD_ALREADY_EXIST": {
+   "err_message": {
+    "en": "Another setting entry with the same key is in conflict with your input.",
+    "cn": "具有相同键值的设置已经存在"
+   },
+   "err_code": "0x01140018"
+  },
+  "E_API_SETTING_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "Setting not found.",
+    "cn": "设置没有找到，请联系您的系统管理员"
+   },
+   "err_code": "0x01150018"
+  },
+  "E_API_SYSTEM_PING_NOT_AVAILABLE": {
+   "err_message": {
+    "en": "Service not available.",
+    "cn": "无法连接"
+   },
+   "err_code": "0x01160000"
+  },
+  "E_API_USER_AUTH_USERNAME_PASSWORD_NOT_CORRECT": {
+   "err_message": {
+    "en": "Your login name or password is incorrect. Please try again.",
+    "cn": "您的登录名或密码不正确，请重试"
+   },
+   "err_code": "0x8117003B"
+  },
+  "E_API_USER_COMMON_INSUFFICIENT_PRIVILEGE": {
+   "err_message": {
+    "en": "You do not have access rights for this. Contact your administrator if required.",
+    "cn": "您没有访问权限"
+   },
+   "err_code": "0x01180000"
+  },
+  "E_API_USER_COMMON_LOCKED": {
+   "err_message": {
+    "en": "Account locked. Please contact your administrator.",
+    "cn": "帐户已被锁定，请联系管理员"
+   },
+   "err_code": "0x8119013A"
+  },
+  "E_API_USER_COMMON_NOT_FOUND": {
+   "err_message": {
+    "en": "User not found. Please contact your administrator.",
+    "cn": "用户名没有找到，请联系管理员"
+   },
+   "err_code": "0x011A0038"
+  },
+  "E_API_USER_COMMON_SUSPENDED": {
+   "err_message": {
+    "en": "Your account is suspended, Please contact your administrator",
+    "cn": "您的帐户已被冻结，请联系管理员"
+   },
+   "err_code": "0x811B013A"
+  },
+  "E_API_USER_CREATEUSERS_EXCEEDLICENSENUMBER": {
+   "err_message": {
+    "en": "You have reached the maximum number of users allowed. Please contact your administrator.",
+    "cn": "已经达到了允许的最大用户数"
+   },
+   "err_code": "0x811C003B"
+  },
+  "E_API_USER_UPDATEPASSWORD_INCORRECT_PASSWORD": {
+   "err_message": {
+    "en": "You have used an incorrect or old password. Please try again.",
+    "cn": "您使用了错误的或者旧的密码，请重试"
+   },
+   "err_code": "0x811D003B"
+  },
+  "E_API_USER_VALIDATEUSERS_EMAILEXIST": {
+   "err_message": {
+    "en": "Email address is already in use.",
+    "cn": "电子邮件地址已存在"
+   },
+   "err_code": "0x811E003B"
+  },
+  "E_API_USER_VALIDATEUSERS_USERNAMEEXIST": {
+   "err_message": {
+    "en": "Username already exists.",
+    "cn": "用户名已经存在"
+   },
+   "err_code": "0x811F003B"
+  },
+  "E_API_USER_VALIDATEUSERS_ROWERROR": {
+   "err_message": {
+    "en": "row ${num}:${msg}",
+    "cn": "第 ${num} 行:${msg}"
+   },
+   "err_code": "0x8120003B"
+  },
+  "E_API_USER_VALIDATEUSERS_VALIDATIONFAILED": {
+   "err_message": {
+    "en": "Please check the information below and correct accordingly.",
+    "cn": "请核对并更正以下信息"
+   },
+   "err_code": "0x8121003B"
+  },
+  "E_API_USERGROUP_ADDUSERGROUPS_ALREADYEXIST": {
+   "err_message": {
+    "en": "This user group already exists.",
+    "cn": "用户组已存在"
+   },
+   "err_code": "0x01220038"
+  },
+  "E_API_USERGROUP_COMMON_CAN_NOT_DELETE": {
+   "err_message": {
+    "en": "User group cannot be deleted.",
+    "cn": "用户组不能删除"
+   },
+   "err_code": "0x01230038"
+  },
+  "E_API_USERGROUP_COMMON_NOTFOUND": {
+   "err_message": {
+    "en": "The user group is not found.",
+    "cn": "未找到用户组"
+   },
+   "err_code": "0x01240038"
+  },
+  "No key(Springboot-Security)": {
+   "err_message": {
+    "en": "Login failed. Contact your administrator.",
+    "cn": "登录失败，请联系系统管理员"
+   },
+   "err_code": "0x8126003B"
+  },
+  "No key(common error on web)": {
+   "err_message": {
+    "en": "Bad gateway HTTP 502. Contact your administrator.",
+    "cn": "网关错误HTTP 502，请联系管理员"
+   },
+   "err_code": "0x812A013A"
+  },
+  "E_API_SCANTASK_TERMINATED_BY_USER": {
+   "err_message": {
+    "en": "Scan task has been terminated.",
+    "cn": "扫描任务已经终止"
+   },
+   "err_code": "0x812B011B"
+  },
+  "E_API_FILE_COMMON_GET_PATH_FAILED": {
+   "err_message": {
+    "en": "Failed to get file path.",
+    "cn": "获取文件路径失败"
+   },
+   "err_code": "0x012C0339"
+  },
+  "E_API_USER_UPDATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "User account update failed.",
+    "cn": "用户帐户更新失败"
+   },
+   "err_code": "0x812D000B"
+  },
+  "E_API_PROJECT_UPDATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Project update failed.",
+    "cn": "项目更新失败"
+   },
+   "err_code": "0x812E000B"
+  },
+  "E_API_USER_VALIDATE_PASSWORD_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Password update failed.",
+    "cn": "密码更新失败"
+   },
+   "err_code": "0x812F003B"
+  },
+  "E_API_USERGROUP_CREATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Create user group failed.",
+    "cn": "创建用户组失败"
+   },
+   "err_code": "0x8130003B"
+  },
+  "E_API_USER_LOGIN_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Login failed.",
+    "cn": "登录失败"
+   },
+   "err_code": "0x8131003B"
+  },
+  "E_API_PROJECT_CREATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Project creation failed.",
+    "cn": "项目创建失败"
+   },
+   "err_code": "0x8132000B"
+  },
+  "E_API_PROJECTCONFIG_CREATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Project configuration failed.",
+    "cn": "项目配置失败"
+   },
+   "err_code": "0x8133000B"
+  },
+  "E_API_PRESET_CREATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Project configuration failed.",
+    "cn": "项目配置失败"
+   },
+   "err_code": "0x8134000B"
+  },
+  "E_API_PRESET_UPDATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Project configuration update failed.",
+    "cn": "项目配置更新失败"
+   },
+   "err_code": "0x8135000B"
+  },
+  "E_API_SCANTASKSTATUS_UPDATE_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Scan task failed during status update.",
+    "cn": "扫描任务在状态更新期间失败"
+   },
+   "err_code": "0x8136031B"
+  },
+  "E_API_PRESET_CREATE_SETTING_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Project setting creation failed.",
+    "cn": "项目设置创建失败"
+   },
+   "err_code": "0x8137000B"
+  },
+  "E_API_PRESET_UPDATE_SETTING_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Project setting update failed.",
+    "cn": "项目设置更新失败"
+   },
+   "err_code": "0x8138000B"
+  },
+  "E_API_EMAILCONFIG_UPDATE_SETTING_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Email configuration update failed.",
+    "cn": "邮件配置更新失败"
+   },
+   "err_code": "0x8139000B"
+  },
+  "E_API_CONTACTUS_VALIDATE_FAIL": {
+   "err_message": {
+    "en": "Email to Xcalibyte not successful.",
+    "cn": "给Xcalibyte发送电子邮件不成功"
+   },
+   "err_code": "0x813A033A"
+  },
+  "E_AGENT_IS_BUSY": {
+   "err_message": {
+    "en": "Client busy and has timed out. Please contact your system administrator.",
+    "cn": "客户端繁忙并且已超时，请联系管理员"
+   },
+   "err_code": "0x013B0013"
+  },
+  "E_COMMON_UNKNOWN_ERROR": {
+   "err_message": {
+    "en": "Client internal error, please contact Xcalibyte support.",
+    "cn": "客户端内部错误，请联系Xcalibyte"
+   },
+   "err_code": "0x013C0011"
+  },
+  "E_NO_ACTIVE_AGENT_FOR_THIS_JOB": {
+   "err_message": {
+    "en": "Client start script has stopped or has not been started, please restart the client with script provided by Xcalibyte.",
+    "cn": "客户端已停止或尚未启动，请使用Xcalibyte提供的脚本指令重新启动客户端服务"
+   },
+   "err_code": "0x813D0013"
+  },
+  "E_COMMON_INVALID_VALUE": {
+   "err_message": {
+    "en": "Client internal error, please contact Xcalibyte.",
+    "cn": "客户端内部错误，请联系Xcalibyte"
+   },
+   "err_code": "0x013E0339"
+  },
+  "E_SRV_UPLOAD_FILEINFO_FAILED": {
+   "err_message": {
+    "en": "Upload source file to display failed. Please check your network or  contact your administrator",
+    "cn": "上传源代码文件失败，请检查您的网络或联系管理员"
+   },
+   "err_code": "0x813F0122"
+  },
+  "E_IMPORT_RESULT_ALL_FAILED": {
+   "err_message": {
+    "en": "Upload scan result for reporting failed. Please check your network or contact your administrator.",
+    "cn": "上传扫描结果报告失败，请检查您的网络或联系管理员"
+   },
+   "err_code": "0x81400122"
+  },
+  "E_SRV_SCAN_CANCELLED": {
+   "err_message": {
+    "en": "Scan task cancelled by user.",
+    "cn": "扫描任务被用户取消"
+   },
+   "err_code": "0x81410023"
+  },
+  "E_SRV_SCAN_UNKNOWN_ERROR": {
+   "err_message": {
+    "en": "Internal error during project scan.",
+    "cn": "项目扫描期间出现内部错误"
+   },
+   "err_code": "0x81420338"
+  },
+  "E_SPRING_BOOT_SECURITY_SESSION_INVALID": {
+   "err_message": {
+    "en": "Login expired, please login again.",
+    "cn": "登录状态已失效，请重新登录"
+   },
+   "err_code": "0x8143003B"
+  },
+  "I_SCAN_PROGRESS": {
+   "err_message": {
+    "en": "Scan progress.",
+    "cn": "扫描进度"
+   },
+   "err_code": "0x81440318"
+  },
+  "E_SCAN_LIB_INCOMPATIBLE": {
+   "err_message": {
+    "en": "Scan engine version mismatch with user's dependent jar library. Please reinstall Xcalscan again.",
+    "cn": "扫描引擎版本与用户依赖的jar库不匹配，请重新安装Xcalscan"
+   },
+   "err_code": "0x81450301"
+  },
+  "E_API_FILE_COMMON_SOURCE_CODE_NOT_UPLOAD": {
+   "err_message": {
+    "en": "Source code not available, user disabled during project configuration.",
+    "cn": "未能上传源代码, 用户在项目配置期间被禁止"
+   },
+   "err_code": "0x814B0109"
+  },
+  "E_NETWORK_REQUEST_TIMEOUT": {
+   "err_message": {
+    "en": "Web request timeout.",
+    "cn": "Web 请求超时"
+   },
+   "err_code": "0x8147013A"
+  },
+  "E_API_GIT_COMMON_GITHUBERROR": {
+   "err_message": {
+    "en": "Project set up failed. Unable to access source code repository. Please check configuration details or source code repository server.",
+    "cn": "项目设置失败，无法访问源代码存储库,请检查配置或源代码存储库服务器"
+   },
+   "err_code": "0x8148000B"
+  },
+  "E_GIT_DIFF_FAILED": {
+   "err_message": {
+    "en": "Project set up failed. Git diff reported error.",
+    "cn": "项目设置失败，Git比较报告错误"
+   },
+   "err_code": "0x8149010A"
+  },
+  "E_GIT_FETCH_CHECKOUT_FAILED": {
+   "err_message": {
+    "en": "Project set up failed. Git update project reported error.",
+    "cn": "项目设置失败，Git更新项目报告错误"
+   },
+   "err_code": "0x814A010A"
+  },
+  "E_API_SCANTASK_ADDSCAN_EMPTY_PROJECT_UUID": {
+   "err_message": {
+    "en": "Project ID not provided by user.",
+    "cn": "用户未提供项目ID。"
+   },
+   "err_code": "0x814C000B"
+  },
+  "E_API_FILE_COMMON_ARCHIVE_HAVE_MORE_THAN_ONE_FILE": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x014D0338"
+  },
+  "E_API_ISSUE_IMPORTISSUEDIFF_INVALID_FILE": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x014E0338"
+  },
+  "E_API_GIT_PROJECTURL_NOT_BLANK": {
+   "err_message": {
+    "en": "Project set up failed. Source code repository project URL cannot be empty.",
+    "cn": "项目设置失败，源代码存储库中项目URL不能为空"
+   },
+   "err_code": "0x814F000B"
+  },
+  "E_GUI_ADD_SCAN_TASK_FAILED": {
+   "err_message": {
+    "en": "Scan task creation failed.",
+    "cn": "创建扫描任务失败"
+   },
+   "err_code": "0x81500310"
+  },
+  "E_GUI_UPLOAD_FILE_FAILED": {
+   "err_message": {
+    "en": "File failed to upload during scan preparation.",
+    "cn": "在扫描准备期间, 无法上传文件"
+   },
+   "err_code": "0x81510310"
+  },
+  "E_GUI_CREATE_PROJECT_FAILED": {
+   "err_message": {
+    "en": "Project creation failed during scan preparation.",
+    "cn": "在扫描准备期间, 创建项目失败"
+   },
+   "err_code": "0x81520308"
+  },
+  "E_GUI_START_SCAN_FAILED": {
+   "err_message": {
+    "en": "Scan task failed to start.",
+    "cn": "启动扫描失败"
+   },
+   "err_code": "0x81530311"
+  },
+  "E_GUI_UNKNOWN_ERROR": {
+   "err_message": {
+    "en": "Scan preparation failed. Please contact Xcalibyte support.",
+    "cn": "在扫描准备期间失败, 请联系Xcalibyte"
+   },
+   "err_code": "0x81540339"
+  },
+  "E_GUI_SCAN_SERVER_NO_RESPONSE": {
+   "err_message": {
+    "en": "Scan server failed to respond. Please check your network, scan server IP address or connectivity.",
+    "cn": "扫描服务器无法响应。请检查您的网络，扫描服务器IP地址或连接。"
+   },
+   "err_code": "0x81550039"
+  },
+  "E_GUI_INTERNAL_ERROR": {
+   "err_message": {
+    "en": "Scan preparation internal error. Please contact Xcalibyte support.",
+    "cn": "扫描准备内部错误。请联系Xcalibyte"
+   },
+   "err_code": "0x8156033A"
+  },
+  "E_GUI_LOGIN_FAILED": {
+   "err_message": {
+    "en": "Login failure, please try again.",
+    "cn": "登录失败，请重试。"
+   },
+   "err_code": "0x81570038"
+  },
+  "E_API_FILE_CALCULATE_HASH_FAILED": {
+   "err_message": {
+    "en": "Runtime library jar seems to be corrupted. Please check your source configuration file.",
+    "cn": "运行库jar似乎已损坏。请检查源配置文件"
+   },
+   "err_code": "0x01580338"
+  },
+  "E_API_GIT_COMMON_GITURL_MISMATCH": {
+   "err_message": {
+    "en": "Git project URL and project source code repo URL mismatch. Please check your project configuration.",
+    "cn": "Git项目URL与项目源代码repo URL不匹配。请检查您的项目配置。"
+   },
+   "err_code": "0x8159010A"
+  },
+  "E_MAVEN_SETTING_NOT_FOUND": {
+   "err_message": {
+    "en": "Cannot find Maven configuration setting during installation. Please try re-installing the package.",
+    "cn": "安装过程中找不到Maven的配置。请重新安装包。"
+   },
+   "err_code": "0x815A0003"
+  },
+  "E_BACKUP_MAVEN_LIBRARY_FAILED": {
+   "err_message": {
+    "en": "While installing Mavin plugin, we need to back up the Mavin library before modifying that file. Please back that up yourself.",
+    "cn": ""
+   },
+   "err_code": "0x01600302"
+  },
+  "E_FILE_SYSTEM_URL_ERR": {
+   "err_message": {
+    "en": "Server side file system URL is missing. File upload for scanning will fail without the URL.",
+    "cn": "服务器端的文件地址缺失，用于扫描的文件上传失败。"
+   },
+   "err_code": "0x815C0003"
+  },
+  "E_FILE_SYSTEM_KEY_ERROR": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x015D0139"
+  },
+  "E_FILE_SYSTEM_FILE_ERROR": {
+   "err_message": {
+    "en": "Uploading of source code to server failed. Please try again.",
+    "cn": "源代码上传到服务器失败。请重试。"
+   },
+   "err_code": "0x815E0139"
+  },
+  "E_NOT_CREATE_FOLDER_IN_FILE_SYSTEM": {
+   "err_message": {
+    "en": "File folder cannot be created in the server side. Please contact Xcalibyte support team.",
+    "cn": "无法在服务器端创建文件夹。请联系鉴释客户支持团队。"
+   },
+   "err_code": "0x815F0139"
+  },
+  "E_GET_TOKEN_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01610139"
+  },
+  "MUST_PROVID_PROJ_ID": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x0162002B"
+  },
+  "MUST_PROVID_PROJ_INFO": {
+   "err_message": {
+    "en": "Project name, project path and project build path must be provided before scanning. Please add them in the project configuration file.",
+    "cn": "必须在扫描前输入项目名称、项目地址以及项目构建地址。请在项目配置文件中加入这些信息。"
+   },
+   "err_code": "0x8163002B"
+  },
+  "RUN_CONF_NOT_FOUND": {
+   "err_message": {
+    "en": "Xcalclient's run.conf file is missing and is needed to perform scanning. Please re-install the Xcalclient package.",
+    "cn": "找不到Xcalclient中的run.conf文件，无法进行扫描。请重新安装Xcalclient安装包。"
+   },
+   "err_code": "0x8164002B"
+  },
+  "RUN_CONF_ERROR": {
+   "err_message": {
+    "en": "Xcalclient's run.conf file has been corrupted. Please re-install the Xcalclient package.",
+    "cn": "Xcalclient中的run.conf文件已经损坏。请重新安装Xcalclient安装包。"
+   },
+   "err_code": "0x8165002B"
+  },
+  "USER_CONF_NOT_FOUND": {
+   "err_message": {
+    "en": "user.conf file cannot be found. Please reinstall the Xcalclient package and re-establish user login information.",
+    "cn": "找不到user.conf文件，请重新安装Xcalclient安装包并重新创建用户登录信息。"
+   },
+   "err_code": "0x8166002B"
+  },
+  "E_RESOURCE_NOT_FOUND": {
+   "err_message": {
+    "en": "Source code cannot be found in the path specified.",
+    "cn": "在指定的路径中找不到源代码。"
+   },
+   "err_code": "0x81670033"
+  },
+  "E_FSM_INVALID": {
+   "err_message": {
+    "en": "The user defined rule is not a legal construct. The rule model specified has logic errors.",
+    "cn": "用户自定义的规则构造不正确，此规则模型存在逻辑错误。"
+   },
+   "err_code": "0x81680033"
+  },
+  "E_MANGLE_NAME_NOT_FOUND": {
+   "err_message": {
+    "en": "The function/method input cannot be found in your source code. Please check your input.",
+    "cn": "在您的源代码中找不到输入的函数或方法，请检查您的输入。"
+   },
+   "err_code": "0x81690033"
+  },
+  "E_INCORRECT_API_CALL": {
+   "err_message": {
+    "en": "The .mi file generated during the rule definition phase has incorrect API calls. Please redo the rule definition.",
+    "cn": "在规则定义阶段生成的.mi文件包含错误的API调用。请重新定义规则。"
+   },
+   "err_code": "0x816A0033"
+  },
+  "E_API_NOT_EXIST": {
+   "err_message": {
+    "en": "The rule specified is using a Rule Based API that is not supported. Please try another way to specify the rule.",
+    "cn": "您定义的规则使用了未被支持的API，请尝试用其他方法来定义规则。"
+   },
+   "err_code": "0x816B0332"
+  },
+  "E_INVALID_FUNCTION_FORMAT": {
+   "err_message": {
+    "en": "The compiler reported a syntax error for the method/function input. Please check your input or source code.",
+    "cn": "输入的方法或函数在编译时显示有语法错误，请检查您的输入或源代码。"
+   },
+   "err_code": "0x816C0033"
+  },
+  "E_LANGUAGE_NOT_SUPPORTED": {
+   "err_message": {
+    "en": "The language used in the source code is not supported in our current rule based product.",
+    "cn": "我们产品目前支持的规则未能涵盖您指定的源代码语言。"
+   },
+   "err_code": "0x816D003B"
+  },
+  "E_MANGLE_REFERENCE_NOT_FOUND": {
+   "err_message": {
+    "en": "The method/function input cannot be found in the source code base. Please check your project source code.",
+    "cn": "在源代码库中找不到输入的方法或函数，请检查您的项目源代码。"
+   },
+   "err_code": "0x816E0032"
+  },
+  "E_XVSA_COMPILE_ERROR": {
+   "err_message": {
+    "en": "A compilation error occurred in source code converted from user input. Please check that your input is consistent with your project source code.",
+    "cn": "由用户输入转换得到的源代码出现编译错误。请检查您的输入是否与项目源代码一致。"
+   },
+   "err_code": "0x816F0033"
+  },
+  "E_INFO_FIELD_MISSING": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01700332"
+  },
+  "E_API_PROJ_CONFIG_ATTR_CMD_NOT_FOUND": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01710319"
+  },
+  "E_WEB_API_AUTH_FAILED": {
+   "err_message": {
+    "en": "User authentication failed. Please re-login or check your WEB_API_URL configuration setting in {your Xcalclient installation folder}/workdir/run.conf file.",
+    "cn": "用户身份验证失败。请重新登录或检查{您的Xcalclient安装文件夹}/workdir/run.conf中WEB_API_URL的设定。"
+   },
+   "err_code": "0x81720013"
+  },
+  "E_WEB_API_SERVICE_ERROR": {
+   "err_message": {
+    "en": "The web service in server side failed to handle client requests with HTTP error code ${HTTP_CODE}.",
+    "cn": "服务器端的web service遇到HTTP错误, HTTP错误代码${HTTP_CODE}。"
+   },
+   "err_code": "0x81730110"
+  },
+  "E_AGENT_DEP_INTERNAL_ERROR": {
+   "err_message": {
+    "en": "Client internal error. Please restart client and try again. If the problem persists, please contact the Xcalibyte support team.",
+    "cn": "客户端内部错误。请重启客户端并重试。如果问题仍然存在，请联系鉴释客户支持团队。"
+   },
+   "err_code": "0x81740311"
+  },
+  "E_SRV_GIT_DIFF_NOT_EXIST": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01750321"
+  },
+  "E_SRV_BASELINE_VTXT_NOT_EXISTS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01770321"
+  },
+  "E_SRV_VTXTREADER_NOT_EXISTS": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01780321"
+  },
+  "E_SRV_VTXTREADER_EXEC_TIMEOUT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01790321"
+  },
+  "E_SRV_VTXTREADER_EXEC_EXEC_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x017A0321"
+  },
+  "E_SRV_VTXTDIFF_NOT_EXIST": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x017B0321"
+  },
+  "E_SRV_VTXTDIFF_EXEC_TIME_OUT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x017C0321"
+  },
+  "E_SRV_VTXTDIFF_EXEC_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x017D0321"
+  },
+  "E_SRV_CURRENT_VTXT_NOT_EXIST": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x017E0321"
+  },
+  "E_SRV_V2CSF_NOT_EXIST": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01820321"
+  },
+  "E_SRV_V2CSF_TIMEOUT": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01800321"
+  },
+  "E_SRV_V2CSF_FAILED": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x01810321"
+  },
+  "E_WEB_API_SERVICE_NO_RESPONSE_ERROR": {
+   "err_message": {
+    "en": "The web service in server side failed to handle client requests. Please retry or contact your administrator.",
+    "cn": "服务器端的web service没有响应客户端请求。请重试或联系您的管理员。"
+   },
+   "err_code": "0x81830110"
+  },
+  "E_CSV_INVALID_INPUT_FILE": {
+   "err_message": {
+    "en": "Input file from scanner is invalid. Please contact the Xcalibyte support team.",
+    "cn": "scanner的输入文件无效。请联系鉴释客户支持团队。"
+   },
+   "err_code": "0x8184032B"
+  },
+  "E_CSV_OUT_OF_MEMORY": {
+   "err_message": {
+    "en": "Ran out of memory during scanner output file conversion. Please contact the Xcalibyte support team.",
+    "cn": "scanner输出文件格式转换时内存不足。请联系鉴释客户支持团队。"
+   },
+   "err_code": "0x8185032B"
+  },
+  "E_CSV_INVALID_OUTPUT_FILE": {
+   "err_message": {
+    "en": "Output file from scanner is invalid. Please contact the Xcalibyte support team.",
+    "cn": "scanner的输出文件无效。请联系鉴释客户支持团队。"
+   },
+   "err_code": "0x8186032B"
+  },
+  "E_CSV_SIZE": {
+   "err_message": {
+    "en": "Scanner output file has internal size error. Please contact the Xcalibyte support team.",
+    "cn": "scanner输出文件存在文件大小错误。请联系鉴释客户支持团队。"
+   },
+   "err_code": "0x8187032B"
+  },
+  "E_SCAN_MODE_NOT_SUPPORTED": {
+   "err_message": {
+    "en": "ScanMode [{{scanMode}}] is not supported in current version, please check with your administrator...",
+    "cn": "扫描模式 [{{scanMode}}] 不支持，请联系管理员"
+   },
+   "err_code": "0x81880013"
+  },
+  "E_AUTH_FAILED_USERNAME_PSW": {
+   "err_message": {
+    "en": "Failed to validate user token, please check your user name and password",
+    "cn": "验证用户令牌失败，请检查用户名和密码"
+   },
+   "err_code": "0x81890013"
+  },
+  "E_AUTH_NO_USERNAME_PSW": {
+   "err_message": {
+    "en": "No available username/password in config, please use client with -u/--psw",
+    "cn": "没有提供用户名和密码，请在使用客户端时给出-u/--psw选项"
+   },
+   "err_code": "0x818A0013"
+  },
+  "E_AUTH_FAILED": {
+   "err_message": {
+    "en": "Failed user authentication",
+    "cn": "认证用户失败"
+   },
+   "err_code": "0x818B0013"
+  },
+  "E_LOGIN_FAILED": {
+   "err_message": {
+    "en": "Error logged in into the server",
+    "cn": "无法登入服务器"
+   },
+   "err_code": "0x818C0013"
+  },
+  "E_CLIENT_ARG_VALIDATE_FAILED": {
+   "err_message": {
+    "en": "Validate argument failed, {{error}}",
+    "cn": "命令行参数验证失败, {{error}}"
+   },
+   "err_code": "0x818D0013"
+  },
+  "E_CLIENT_TIMEOUT_MET": {
+   "err_message": {
+    "en": "Timeout [{{timeout}} seconds] met",
+    "cn": "超时 [{{timeout}} 秒]"
+   },
+   "err_code": "0x818E0013"
+  },
+  "E_CLIENT_SOURCE_CODE_PATH_NOT_FOUND": {
+   "err_message": {
+    "en": "Source code path not found",
+    "cn": "源代码目录未找到"
+   },
+   "err_code": "0x818F0013"
+  },
+  "E_CLIENT_CONFIG_NOT_FOUND": {
+   "err_message": {
+    "en": "Cannot find xcalClient configuration file, please reinstall xcalClient and try again",
+    "cn": "无法找到客户端配置文件，请重新安装xcalClient然后重试"
+   },
+   "err_code": "0x81900013"
+  },
+  "E_CLIENT_CONFIG_MALFORMED": {
+   "err_message": {
+    "en": "The client config file is malformed, please reinstall xcalClient and try again",
+    "cn": "客户端配置文件无效，请重新安装xcalClient然后重试"
+   },
+   "err_code": "0x81910013"
+  },
+  "E_CLIENT_MISSING_SCAN_CONFIG": {
+   "err_message": {
+    "en": "Missing scan config",
+    "cn": "缺少扫描配置文件"
+   },
+   "err_code": "0x81920013"
+  },
+  "E_CLIENT_WRONG_SCAN_CONFIG_PATH": {
+   "err_message": {
+    "en": "No config file found in {{path}}",
+    "cn": "在 {{path}} 找不到扫描配置文件"
+   },
+   "err_code": "0x81930013"
+  },
+  "E_CLIENT_PROJECT_PATH_NOT_FOUND": {
+   "err_message": {
+    "en": "Project path cannot be found",
+    "cn": "项目目录未找到"
+   },
+   "err_code": "0x81940013"
+  },
+  "E_CLIENT_NO_SCAN_RECORD_FOUND": {
+   "err_message": {
+    "en": "No scan record found, nothing to cancel",
+    "cn": "没有扫描纪录，取消扫描任务失败"
+   },
+   "err_code": "0x819D0013"
+  },
+  "E_CLIENT_CANNOT_ACCESS_WORK_FOLDER": {
+   "err_message": {
+    "en": "[{{path}}] folder is invalid to hold scan data",
+    "cn": "[{{path}}] 文件夹失效，无法存储扫描任务"
+   },
+   "err_code": "0x81960013"
+  },
+  "E_CLIENT_TASK_EXCEPTION": {
+   "err_message": {
+    "en": "Task [{{taskId}}] failed with error: {{exception}}",
+    "cn": "任务 [{{taskId}}] 失败: {{exception}}"
+   },
+   "err_code": "0x81970013"
+  },
+  "E_CLIENT_WRITE_SCAN_CONF_FAILED": {
+   "err_message": {
+    "en": "Failed to write scan config to {{path}}",
+    "cn": "写入扫描配置文件 {{path}} 失败"
+   },
+   "err_code": "0x81980013"
+  },
+  "E_CLIENT_NO_SCAN_CONF_FOUND": {
+   "err_message": {
+    "en": "No scan config file found, generating... Please fill in essential info at [{{path}}] before real scan...",
+    "cn": "找不到扫描配置文件，正在重新生成... 请在 [{{path}}] 填入必要的配置..."
+   },
+   "err_code": "0x81990013"
+  },
+  "E_CLIENT_PROJECT_NAME_VALIDATION_FAILED": {
+   "err_message": {
+    "en": "Project name [{{name}}] is invalid. The name can only contain a max of 50 characters of english alphabets (a to z and A to Z), numbers (0 to 9), and punctuation characters - period(.), hyphen(-), underscore(_) or forward slash(/) within the project name.",
+    "cn": "项目名 [{{name}}] 无效。 请使用50个字符以内的英文字母，数字, 包括特殊字符 . - _ / 或空格的组合"
+   },
+   "err_code": "0x819A0013"
+  },
+  "E_CLIENT_FAILED_TO_CREATE_PROJECT": {
+   "err_message": {
+    "en": "Failed to create online project for [{{name}}], error {{error}}",
+    "cn": "创建项目 [{{name}}] 失败, 错误 {{error}}"
+   },
+   "err_code": "0x819C0013"
+  },
+  "E_SCM_ERROR": {
+   "err_message": {
+    "en": "",
+    "cn": ""
+   },
+   "err_code": "0x819F0013"
+  },
+  "E_CLIENT_PROJECT_ID_VALIDATION_FAILED": {
+   "err_message": {
+    "en": "Project ID [{{projectId}}] is not valid. The project ID must be 3-63 characters long, contains only lowercase letters, numbers, dot(.) and hyphen (-), begins and ends with the letters or numbers (except “xn”). The ID must be unique and not in IP address format.",
+    "cn": "无效的项目编号 [{{projectId}}]。 项目编号必须为3-63个字符，只包括小写字母、数字、点（.）以及连字号（-），必须以字母或者数字开头和结尾（除了xn开头之外）。项目编号必须是唯一的，并且不能是IP地址格式。"
+   },
+   "err_code": "0x819f000b"
+  },
+  "E_BUILD_FAILED_WITH_I_FILE_GENERATED": {
+   "err_message": {
+    "en": "Xcalbuild execution failed, but .i file is generated.",
+    "cn": "Xcalbuild执行失败，但.i文件已经生成。"
+   },
+   "err_code": "0x01a20311"
+  },
+  "E_BUILD_SUCCESS_NO_I_FILE_GENERATED": {
+   "err_message": {
+    "en": "Xcalbuild success but no .i file is generated. Probably due to project not cleaned before first scan/ no source code in the project/ source code is same as previous scan.",
+    "cn": "Xcalbuild成功，但是没有生成.i文件。可能是由于项目在第一次扫描前没有被清理/项目中没有源代码/源代码与之前的扫描相同。"
+   },
+   "err_code": "0x81a00119"
+  },
+  "E_BUILD_FAILED_NO_I_FILE_GENERATED": {
+   "err_message": {
+    "en": "Xcalbuild execution failed, no .i file is generated.",
+    "cn": "Xcalbuild执行失败，没有生成.i文件。"
+   },
+   "err_code": "0x01a10311"
+  },
+  "E_NO_I_FILE_GENERATED": {
+   "err_message": {
+    "en": "Build itself is part of the scan process. Please fix the build or the make file. Otherwise, no issue will be reported.",
+    "cn": "扫描准备失败，无法生成源代码预编译文件"
+   },
+   "err_code": "0x801F0311"
+  },
+  "E_XCALBUILD_FAIL": {
+   "err_message": {
+    "en": "Build error. No i file generated.",
+    "cn": "扫描准备失败，可能与用户自己的Makefile设置有关"
+   },
+   "err_code": "0x800E0013"
+  },
+  "E_SCM_NO_COMMIT_BASELINE_ID": {
+   "err_message": {
+    "en": "Please trigger the scan via push or merge. Otherwise, no DSR will be reported.",
+    "cn": "前一次扫描含有dsr结果，无法获取commit id 或者baseline commit id, 退出"
+   },
+   "err_code": "0x819E0013"
+  },
+  "E_UPLOAD_FILE_FAILED": {
+   "err_message": {
+    "en": "Scan preparation failed. Unable to upload file to file service.",
+    "cn": "扫描准备失败，无法上传文件到文件服务器"
+   },
+   "err_code": "0x803E0311"
+  },
+  "E_ACCESS_FILE_SERVICE_FAILED": {
+   "err_message": {
+    "en": "Cannot access file service, please check whether the file service url or network is valid. You can also contact your administrator.",
+    "cn": "无法访问文件服务，请检查文件服务地址或者网络是否是有效的。你也可以联系系统管理员。"
+   },
+   "err_code": "0x81a30310"
+  },
+  "E_DSR_STATE_MISSING_REPO_ACTION": {
+   "err_message": {
+    "en": "[CICD] Your scan config file is corrupted, please restore previous correct config file.",
+    "cn": "[CICD] 您的扫描配置文件已损坏，请使用之前正确的配置文件。"
+   },
+   "err_code": "0x81a8000b"
+  },
+  "E_NOT_SUPPORTED_REPO_ACTION": {
+   "err_message": {
+    "en": "[CICD] There is an invalid input for the “repoAction”. Please ensure the value is “CI”, “CD” or “TRIAL”.",
+    "cn": "[CICD] 输入了无效的“repoAction“值。允许输入值的范围为“CI/CD/TRIAL“。"
+   },
+   "err_code": "0x81a90033"
+  },
+  "E_REPO_ACTION_VALIDATION_FAILED": {
+   "err_message": {
+    "en": "[CICD] Inconsistent input for “repoAction”, please start from scratch.",
+    "cn": "[CICD] 输入了不一致的“repoAction“值。请重新创建项目。"
+   },
+   "err_code": "0x81aa0033"
+  },
+  "E_REPO_ACTION_CI_NOT_ALLOW_TO_MODIFY": {
+   "err_message": {
+    "en": "[CICD] The “repoAction” has already been set as the “CI” and cannot be changed to “CD”. Please refer to the User Manual to set up a new “CD” scan pipeline.",
+    "cn": "[CICD] 在扫描配置文件中，“repoAction”之前的值设定为“CI“，不能更改为“CD“。如果您想要创建“CD“扫描流程，请参阅用户手册（注意：此操作将会创建新的CICD扫描流程）。"
+   },
+   "err_code": "0x81a50033"
+  },
+  "E_CLIENT_SCAN_MODE_NOT_ALLOWED_TO_MODIFY": {
+   "err_message": {
+    "en": "[Config] Revise the error message for the said case to Scan mode was found different from the original. Please create a new project for a different scan mode.",
+    "cn": "[Config] 扫描模式与原来的不同。请为不同的扫描模式创建一个新项目。"
+   },
+   "err_code": "0x819B0013"
+  },
+  "E_PREPARE_BUCKET_FAILED": {
+   "err_message": {
+    "en": "Prepare bucket in file service failed, please contact your administrator.",
+    "cn": "在文件服务中准备桶失败，请联系系统管理员。"
+   },
+   "err_code": "0x81a40311"
+  },
+  "E_GET_PROJECT_FROM_SERVER_FAILED": {
+   "err_message": {
+    "en": "[Project] The Project ID cannot be found or created. Please make sure the project ID is correct. Please try again or contact your system administrator if the problem persists.",
+    "cn": "[Project] 无法找到或创建项目ID。请确认项目ID是正确的并重试。如果问题仍然存在，请联系您的系统管理员。"
+   },
+   "err_code": "0x81a9000b"
+  },
+  "E_REPO_ACTION_CD_NOT_ALLOW_TO_MODIFY": {
+   "err_message": {
+    "en": "[CICD] The “repoAction” has already been set as the “CD” and cannot be changed to “CI”. Please create a new scan configuration file for CI scan pipeline.",
+    "cn": "[CICD] 在扫描配置文件中，“repoAction”之前的值设定为“CD“，不能更改为“CI“。请为CI重新创建扫描配置文件。"
+   },
+   "err_code": "0x81a70033"
+  },
+  "E_DUPLICATE_PROJECT_NAME": {
+   "err_message": {
+    "en": "Duplicate roject name [{{projectName}}], please use a different project name. ",
+    "cn": "Duplicate roject name [{{projectName}}], please use a different project name. "
+   },
+   "err_code": "0x81aa000b"
+  }
+ }
+}
